@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 найкращих фільмів</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>MovieFinder</h1>
+    <nav>
+      <a href="index.html">Пошук</a>
+      <a href="top.html" class="active">Top 10</a>
+    </nav>
+  </header>
+
+  <div class="top-controls">
+    <select id="sortBy">
+      <option value="rating">Найвищий рейтинг</option>
+      <option value="popularity">Найпопулярніший</option>
+    </select>
+  </div>
+
+  <div id="results" class="results"></div>
+  <div id="message" class="message"></div>
+
+  <script src="top.js"></script>
+</body>
+</html>
